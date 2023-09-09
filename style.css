@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+/* font-family: 'Roboto Slab', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+/* font-family: 'Chakra Petch',sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+/* font-family: 'Alegreya Sans SC', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+/* font-family: 'Monoton', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+/* font-family: 'Black Ops One', cursive; */
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+
+}
+
+.primary_font {
+    font-family: 'Monoton', cursive;
+}
+
+.secondary_font {
+    font-family: 'Roboto Slab', serif;
+}
+
+.third_font {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.fourth_font {
+    font-family: 'Black Ops One', cursive;
+}
+
+.primary_color {
+    color: #C15E34;
+}
+
+.secondary_color {
+    color: #FC036B;
+}
+
+.third_color {
+    color: #484872;
+}
+
+.fourth_color {
+    color: #7E4943;
+}
+
+.backgroud_color {
+    background-color: #5a3733;
+    color: white;
+}
+.backgroud_color_footer {
+    background-color: #484872;
+    color: white;
+}
+
+.home {
+    background-image: url(../images/img5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    color: #5E3B37;
+    height: 70vh;
+}
+
+
+.hero {
+    height: 600px;
+    background-image: url(../images/hero5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+}
+
+.mainhero {
+    /* background-color: rgba(255, 255, 255, 0.308); */
+    background-color: #48487275;
+    margin-top: 100px;
+}
+
+.back {
+    /* background-color: rgba(255, 255, 255, 0.308); */
+    background-color: #48487275;
+}
+
+
+.footer {
+    background-image: url(../images/hero3.jpg);
+    /* background-color: #484872; */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    color: #5E3B37;
+    /* height: 90vh; */
+}
+
+.time {
+    height: 80vh;
+}
+
+.timeinner {
+    padding-top: 130px;
+}
+
+.contactfooter {
+    background-image: url(../images/hero4.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 60vh;
+}
+
+.active {
+    border-bottom: 3px solid #484872;
+    background-color: #48487256;
+}
+
+.formpic {
+    background-image: url(../images/formpic.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.form-body {
+    background-color: #484872cb;
+}
+
+.event-form input[type="email"], .event-form input[type="text"], .event-form input[type="date"], .event-form input[type="time"], .event-form input[type="number"]  {
+    background-color: transparent;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.event-form input[type="email"]:focus {
+    background-color: transparent;
+    color: white;
+}
+
+.event-form input[type="text"]:focus {
+    background-color: transparent;
+    color: white;
+}
+
+.event-form input[type="date"]:focus {
+    background-color: transparent;
+    color: white;
+}
+
+.event-form input[type="time"]:focus {
+    background-color: transparent;
+    color: white;
+}
+
+.event-form input[type="number"]:focus {
+    background-color: transparent;
+    color: white;
+}
+
+.form-send {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 7px 14px;
+    border-radius: 5px;
+}
+
+/* btn */
+
+.button {
+    height: 50px;
+    width: 200px;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #7E4943;
+    overflow: hidden;
+    border-radius: 30px;
+    color: #7E4943;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-txt {
+    z-index: 1;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+
+.button:hover {
+    color: #fff;
+    border: none;
+    background-color: #484872;
+}
+
+.type1:hover a {
+    color: white;
+}
+
+.type1:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+}
+
+/* btn */

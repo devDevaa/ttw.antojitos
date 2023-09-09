@@ -1,0 +1,13 @@
+.history {
+    background-color: #5c487215;
+}
+
+.about {
+    background-image: url(/images/home1.jpg );
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    color: #5E3B37;
+    height: 40vh;
+}
