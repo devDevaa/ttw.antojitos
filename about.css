@@ -3,7 +3,7 @@
 }
 
 .about {
-    background-image: url(/images/home1.jpg );
+    background-image: url(images/home1.jpg );
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
