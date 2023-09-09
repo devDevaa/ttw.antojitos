@@ -38,7 +38,7 @@
 }
 
 .gallery {
-    background-image: url(../images/gallery/banner.jpg);
+    background-image: url(images/gallery/banner.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
