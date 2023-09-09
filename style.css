@@ -62,7 +62,7 @@ body {
 }
 
 .home {
-    background-image: url(../images/img5.jpg);
+    background-image: url(images/img5.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -74,7 +74,7 @@ body {
 
 .hero {
     height: 600px;
-    background-image: url(../images/hero5.jpg);
+    background-image: url(images/hero5.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -94,7 +94,7 @@ body {
 
 
 .footer {
-    background-image: url(../images/hero3.jpg);
+    background-image: url(images/hero3.jpg);
     /* background-color: #484872; */
     background-size: cover;
     background-position: center;
@@ -113,7 +113,7 @@ body {
 }
 
 .contactfooter {
-    background-image: url(../images/hero4.jpg);
+    background-image: url(images/hero4.jpg);
         background-size: cover;
         background-position: center;
         height: 60vh;
@@ -125,7 +125,7 @@ body {
 }
 
 .formpic {
-    background-image: url(../images/formpic.jpg);
+    background-image: url(images/formpic.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
